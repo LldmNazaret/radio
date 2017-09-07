@@ -237,9 +237,17 @@ html, body {
   align-items: center;
   -ms-flex-align: center; }
 
-.footer {
+/********** footer */
+
+
+.footer-base{
   width: 100%;
-  padding: 0 5.5em 0;
+  background-color: #2E4053;
+}
+
+.footer {
+  max-width: 860px;
+  margin: 0 auto;
   background-color: #2E4053; }
   .footer a {
     color: #fff; }
@@ -248,7 +256,6 @@ html, body {
     width: 32%;
     padding: 2em 1.2em 1.2em; }
     .footer div p:first-child {
-      border-top: 0.4em solid #fff;
       padding-top: 1em;
       margin: 0;
       font-size: 18px; }
@@ -257,13 +264,10 @@ html, body {
       font: bold 16px "Open Sans", sans-serif;
       text-align: left;
       color: #fff; }
-  .footer .social {
-    text-align: right; }
-    .footer .social p:nth-child(2) {
-      text-align: left; }
-    .footer .social img {
-      margin: 0 0.5em 0;
-      height: 40px; }
+  .footer .social img{
+      width: 50px;
+      }
+
 
 .copy {
   background-color: #2E4053;
@@ -388,6 +392,7 @@ html, body {
 /************ Radio button  */
 
 #radio{
+  max-width: 860px;
   margin: auto 0;
   padding: 0 4em;
 }
@@ -396,14 +401,23 @@ html, body {
   width: 50%;
 }
 
+
 .radio-logo img{
-  max-width: 70%;
+  width: 100%;
   float: right;
+}
+
+/*after width of 400 pixels, change pic size*/
+
+@media screen and (max-height: 420px) {
+  .radio-logo img{
+    max-width: 50%;
+  }
 }
 
 .button{
   display: block;
-  margin: 0 auto;
+  margin: 6% auto 0;
   width: 65px;
   height: 65px;
   cursor: pointer;
@@ -523,9 +537,6 @@ html, body {
       width: 100%;
       padding: 1.2em 1.2em 0; }
 
-  .social img {
-    height: 2.2em; }
-
   .bible h1 {
     width: 66%; }
 
@@ -560,5 +571,6 @@ html, body {
     margin-top: 0; }
     .slide ul li {
       font-size: 1em; } }
+
 
 /*# sourceMappingURL=main.css.map */
