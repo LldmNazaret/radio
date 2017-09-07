@@ -251,10 +251,10 @@ html, body {
       border-top: 0.4em solid #fff;
       padding-top: 1em;
       margin: 0;
-      font-size: 0.9em; }
+      font-size: 18px; }
     .footer div p, .footer div a {
       width: 100%;
-      font: bold 1em "Open Sans", sans-serif;
+      font: bold 16px "Open Sans", sans-serif;
       text-align: left;
       color: #fff; }
   .footer .social {
@@ -266,11 +266,11 @@ html, body {
       height: 40px; }
 
 .copy {
-  background-color: #1c2c54;
+  background-color: #2E4053;
   text-align: center;
   padding: 0 5.5em 1em;
   color: #dcdfe5;
-  font: 0.4em "Open Sans", sans-serif; }
+  font: 12px "Open Sans", sans-serif; }
   .copy p {
     margin: 0; }
 
