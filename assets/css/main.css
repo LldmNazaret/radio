@@ -410,7 +410,7 @@ html, body {
 }
 
 .amplitude-paused{
-  background-image: url("https://github.com/LldmNazaret/radio/blob/gh-pages/assets/img/playBt.svg");
+  background-image: url("radio/assets/img/playBt.svg");
   background-size: 62px 62px;
   background-repeat: no-repeat;
 }
