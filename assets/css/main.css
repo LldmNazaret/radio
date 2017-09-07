@@ -76,12 +76,6 @@ html, body {
     height: 3em;
     margin-top: 0.05em; }
 
-#aboutus{
-  width: 65%;
-  height: 50%;
-  text-align: justify;
-  font: 30px "Roboto", sans-serif;
-}
 
 .logo-wrap {
   width: 100%;
@@ -295,17 +289,7 @@ html, body {
   -webkit-transition: -webkit-transform 0.2s;
   -moz-transition: -moz-transform 0.2s;
   transition: transform 0.2s; }
-  .slide ul {
-    margin-top: 2em; }
-    .slide ul li {
-      padding: 0.5em 0 0.5em;
-      font: 2em "Open Sans", sans-serif;
-      border-bottom: 0.1em solid #666060; }
-  .slide ul, .slide a {
-    list-style: none;
-    padding: 0;
-    text-decoration: none;
-    color: #666060; }
+
 
 .slide_social {
   width: 90%;
@@ -316,9 +300,33 @@ html, body {
 
 .slide_footer {
   color: #858585;
-  font-size: 0.8em; }
+  font-size: 14px; }
   .slide_footer img {
     height: 3em; }
+
+#aboutus{
+  width: 100%;
+  text-align: center;
+  font: 16px "Titilium Web", sans-serif;
+}
+
+#text{
+  width: 80%;
+  max-width: 860px;
+  height: 50%;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-align: justify;
+  font: 22px "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  #text{
+    font-size: 16px;
+    width: 70%;
+  }
+
+}
 
 #trigger {
   z-index: 1;
@@ -403,11 +411,17 @@ html, body {
 
 
 .radio-logo img{
-  width: 100%;
+  width: 75%;
   float: right;
 }
 
 /*after width of 400 pixels, change pic size*/
+@media screen and (max-width: 420px) {
+  .radio-logo img{
+    width: 100%;
+  }
+}
+
 
 @media screen and (max-height: 420px) {
   .radio-logo img{
@@ -492,10 +506,6 @@ html, body {
       width: 30px;
       height: 0.2rem; }
 
-  .slide ul li {
-    font-size: 1.3em;
-    padding: 0.45em 0 0.45em; }
-
   .container {
     width: 90%;
     margin: 2em; }
@@ -566,11 +576,7 @@ html, body {
 
   #right-side {
     width: 100%; } }
-@media screen and (max-height: 400px) {
-  .slide ul {
-    margin-top: 0; }
-    .slide ul li {
-      font-size: 1em; } }
+
 
 
 /*# sourceMappingURL=main.css.map */
