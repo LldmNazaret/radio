@@ -1,0 +1,13 @@
+#Site settings
+
+title: "Lldm Queens"
+description: "The Church of the Living God, Column and Pillar of the Truth
+The Light of the World"
+
+url: "http://lldmqueens.github.io"
+
+
+
+#Build settings
+markdown: redcarpet
+permalink: pretty

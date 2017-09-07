@@ -1,0 +1,73 @@
+#themes
+    font: 300 2em $default-font
+    color: $text-color
+    padding-bottom: .2em
+    border-bottom: $border solid $accent-color
+
+.options
+    a
+        font: 500 1.5em $default-font
+        color: $text-color
+        padding-left: 1em
+
+.bible
+    h1
+        font: 700 2em $default-font
+        width: 40%
+        color: $text-color
+        margin-bottom: 1em
+
+.thesis
+    font: 400 18px $text-font
+    padding: 1em 0 1em
+    margin: 0 0 3em
+    text-align: justify
+    border-bottom: $border solid $accent-color
+    color: $text-color
+    line-height: 1.35em
+
+// inner tema
+.study
+    width: 100%
+    color: $text-color
+
+    .bible-text
+        margin: 1em 0 1em
+        width: 100%
+
+        p:first-child
+            font: 700 1.1em $default-font
+
+        p:nth-child(2)
+            font: italic 600 .85em $text-font
+            margin: .5em 4em 0
+            border-bottom: .15em solid $accent-color
+            background-color: $bibtext-color
+            line-height: 1.60em
+            display: none
+            height: 0
+            overflow: scroll
+
+    .comment
+        font: 300 .95em $text-font
+        line-height: 1.5em
+
+    h2
+        font: 300 1.5em $default-font
+        padding: 1em 0 0 1em
+
+
+    h3
+        font: 300 2em $default-font
+        margin: 0
+
+    .base
+        span
+            font: 2em $text-font
+
+.arg
+    display: none
+    padding-left: 1.5em
+    padding-bottom: 1em
+    +linear-gradient(rgba(195, 184, 177, 0), rgba(195, 184, 177, .6))
+    border-left: .2em solid $accent-color
