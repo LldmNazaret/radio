@@ -410,17 +410,16 @@ html, body {
 }
 
 .amplitude-paused{
-  background-image: url("radio/assets/img/playBt.svg");
+  background-image: url("assets/img/playBt.svg");
   background-size: 62px 62px;
   background-repeat: no-repeat;
 }
 
 .amplitude-playing{
-  background-image: url("/assets/img/pause-button.svg");
+  background-image: url("assets/img/pause-button.svg");
   background-size: 62px 62px;
   background-repeat: no-repeat;
 }
-
 
 
 @media screen and (max-width: 640px) {
